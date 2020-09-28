@@ -1,0 +1,25 @@
+- React developer roadmap
+  - [What should I learn as a React developer?](./roadmap/index.md)
+- Javascript
+  - [Javascript ES6 best practices](./js/index.md)
+- React design patterns and techniques
+  - [Conditional in JSX](./patterns/01.md)
+  - [Higher order comopnoents (Dependency Injection)](./patterns/02.md)
+  - [Presentational vs container](./patterns/03.md)
+  - [Decorators](./patterns/04.md)
+  - [Event handlers](./patterns/05.md)
+  - [Passing a function to setState](./patterns/06.md)
+  - [Composition Vs. inheritance](./patterns/07.md)
+  - [List components](./patterns/08.md)
+- React anti-patterns
+  - [Props in initial state](./anti-patterns/01.md)
+  - [setState() in componentWillMount()](./anti-patterns/02.md)
+  - [Mutating state](./anti-patterns/03.md)
+  - [Using indexes as Key](./anti-patterns/04.md)
+  - [Spreading props on DOM elements](./anti-patterns/05.md)
+- React performance tips
+  - [shouldComponentUpdate() check](./performance/01.md)
+  - [Using Pure Components](./performance/02.md)
+  - [Using reselect](./performance/03.md)
+- React Unit/Integration tests
+  - [Unit testing in React](./tests/01.md)
