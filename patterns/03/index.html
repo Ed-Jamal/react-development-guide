@@ -1,0 +1,106 @@
+<!doctype html><html lang=en class=no-js> <head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=../../assets/images/favicon.png><meta name=generator content="mkdocs-1.1.2, mkdocs-material-5.5.12"><title>Presentational and Container components - React Development Guide</title><link rel=stylesheet href=../../assets/stylesheets/main.4dd2dd8d.min.css><link rel=stylesheet href=../../assets/stylesheets/palette.6a5ad368.min.css><meta name=theme-color content=#4cae4f><link href=https://fonts.gstatic.com rel=preconnect crossorigin><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback"><style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style></head> <body dir=ltr data-md-color-scheme=default data-md-color-primary=green data-md-color-accent> <input class=md-toggle data-md-toggle=drawer type=checkbox id=__drawer autocomplete=off> <input class=md-toggle data-md-toggle=search type=checkbox id=__search autocomplete=off> <label class=md-overlay for=__drawer></label> <div data-md-component=skip> <a href=#presentational-and-container-components class=md-skip> Skip to content </a> </div> <div data-md-component=announce> </div> <header class=md-header data-md-component=header> <nav class="md-header-nav md-grid" aria-label=Header> <a href=../.. title="React Development Guide" class="md-header-nav__button md-logo" aria-label="React Development Guide"> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg> </a> <label class="md-header-nav__button md-icon" for=__drawer> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg> </label> <div class=md-header-nav__title data-md-component=header-title> <div class=md-header-nav__ellipsis> <span class="md-header-nav__topic md-ellipsis"> React Development Guide </span> <span class="md-header-nav__topic md-ellipsis"> Presentational and Container components </span> </div> </div> <label class="md-header-nav__button md-icon" for=__search> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg> </label> <div class=md-search data-md-component=search role=dialog> <label class=md-search__overlay for=__search></label> <div class=md-search__inner role=search> <form class=md-search__form name=search> <input type=text class=md-search__input name=query aria-label=Search placeholder=Search autocapitalize=off autocorrect=off autocomplete=off spellcheck=false data-md-component=search-query data-md-state=active> <label class="md-search__icon md-icon" for=__search> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg> </label> <button type=reset class="md-search__icon md-icon" aria-label=Clear data-md-component=search-reset tabindex=-1> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg> </button> </form> <div class=md-search__output> <div class=md-search__scrollwrap data-md-scrollfix> <div class=md-search-result data-md-component=search-result> <div class=md-search-result__meta> Initializing search </div> <ol class=md-search-result__list></ol> </div> </div> </div> </div> </div> </nav> </header> <div class=md-container data-md-component=container> <main class=md-main data-md-component=main> <div class="md-main__inner md-grid"> <div class="md-sidebar md-sidebar--primary" data-md-component=navigation> <div class=md-sidebar__scrollwrap> <div class=md-sidebar__inner> <nav class="md-nav md-nav--primary" aria-label=Navigation data-md-level=0> <label class=md-nav__title for=__drawer> <a href=../.. title="React Development Guide" class="md-nav__button md-logo" aria-label="React Development Guide"> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg> </a> React Development Guide </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=../.. title=Home class=md-nav__link> Home </a> </li> </ul> </nav> </div> </div> </div> <div class="md-sidebar md-sidebar--secondary" data-md-component=toc> <div class=md-sidebar__scrollwrap> <div class=md-sidebar__inner> <nav class="md-nav md-nav--secondary" aria-label="Table of contents"> <label class=md-nav__title for=__toc> <span class="md-nav__icon md-icon"></span> Table of contents </label> <ul class=md-nav__list data-md-scrollfix> <li class=md-nav__item> <a href=#problem class=md-nav__link> Problem </a> </li> <li class=md-nav__item> <a href=#solution class=md-nav__link> Solution </a> </li> <li class=md-nav__item> <a href=#container-component class=md-nav__link> Container Component </a> </li> <li class=md-nav__item> <a href=#presentational-component class=md-nav__link> Presentational component </a> </li> </ul> </nav> </div> </div> </div> <div class=md-content> <article class="md-content__inner md-typeset"> <h1 id=presentational-and-container-components>Presentational and Container components</h1> <h4 id=problem>Problem</h4> <p>Data and logic together.</p> <pre><code class=javascript>class Clock extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {time: this.props.time};
+    this._update = this._updateTime.bind(this);
+  }
+
+  render() {
+    var time = this._formatTime(this.state.time);
+    return (
+      &lt;h1&gt;{ time.hours } : { time.minutes } : { time.seconds }&lt;/h1&gt;
+    );
+  }
+
+  componentDidMount() {
+    this._interval = setInterval(this._update, 1000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this._interval);
+  }
+
+  _formatTime(time) {
+    var [ hours, minutes, seconds ] = [
+      time.getHours(),
+      time.getMinutes(),
+      time.getSeconds()
+    ].map(num =&gt; num &lt; 10 ? '0' + num : num);
+
+    return {hours, minutes, seconds};
+  }
+
+  _updateTime() {
+    this.setState({time: new Date(this.state.time.getTime() + 1000)});
+  }
+}
+
+ReactDOM.render(&lt;Clock time={ new Date() }/&gt;, ...);
+</code></pre> <h4 id=solution>Solution</h4> <p>Let's split the component into two parts - container and presentation.</p> <h4 id=container-component>Container Component</h4> <p>Containers know about data, it's shape and where it comes from. They know details about how the things work or the so called business logic. They receive information and format it so it is easy to use by the presentational component. Very often we use higher-order components to create containers. Their render method contains only the presentational component.</p> <pre><code class=javascript>// Clock/index.js
+import Clock from './Clock.jsx'; // &lt;-- that's the presentational component
+
+export default class ClockContainer extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { time: props.time };
+    this._update = this._updateTime.bind(this);
+  }
+
+  render() {
+    return &lt;Clock {...this._extract(this.state.time)} /&gt;;
+  }
+
+  componentDidMount() {
+    this._interval = setInterval(this._update, 1000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this._interval);
+  }
+
+  _extract(time) {
+    return {
+      hours: time.getHours(),
+      minutes: time.getMinutes(),
+      seconds: time.getSeconds(),
+    };
+  }
+
+  _updateTime() {
+    this.setState({ time: new Date(this.state.time.getTime() + 1000) });
+  }
+}
+</code></pre> <h4 id=presentational-component>Presentational component</h4> <p>Presentational components are concerned with how the things look. They have the additional markup needed for making the page pretty. Such components are not bound to anything and have no dependencies. Very often implemented as a stateless functional components they don't have internal state.</p> <pre><code class=javascript>// Clock/Clock.jsx
+export default function Clock(props) {
+  var [hours, minutes, seconds] = [props.hours, props.minutes, props.seconds].map((num) =&gt;
+    num &lt; 10 ? '0' + num : num,
+  );
+
+  return (
+    &lt;h1&gt;
+      {hours} : {minutes} : {seconds}
+    &lt;/h1&gt;
+  );
+}
+</code></pre> <p>The nice things about containers is that they encapsulate logic and may inject data into different renderers. Very often a file that exports a container is not sending out a class directly but a function. For example, instead of using</p> <pre><code class=javascript>import Clock from './Clock.jsx';
+export default class ClockContainer extends React.Component {
+  render() {
+    return &lt;Clock /&gt;;
+  }
+}
+</code></pre> <p>We may export a function that accepts the presentational component:</p> <pre><code class=javascript>export default function(Component) {
+  return class Container extends React.Component {
+    render() {
+      return &lt;Component /&gt;;
+    }
+  };
+}
+</code></pre> <p>Using this technique our container is really flexible in rendering its result. It will be really helpful if we want to switch from digital to analog clock representation.</p> </article> </div> </div> </main> <footer class=md-footer> <div class="md-footer-meta md-typeset"> <div class="md-footer-meta__inner md-grid"> <div class=md-footer-copyright> Made with <a href=https://squidfunk.github.io/mkdocs-material/ target=_blank rel=noopener> Material for MkDocs </a> </div> </div> </div> </footer> </div> <script src=../../assets/javascripts/vendor.3636a4ec.min.js></script> <script src=../../assets/javascripts/bundle.e9fe3281.min.js></script><script id=__lang type=application/json>{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script> <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script> </body> </html>
